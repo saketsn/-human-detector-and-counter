@@ -1,10 +1,10 @@
-# 👁️ Human Detector and Counter: Enhancing Security with Python-Based Surveillance
+#  Human Detector and Counter: Enhancing Security with Python-Based Surveillance
 
 This project is a real-time human detection and counting system developed using Python and OpenCV. It helps monitor environments like public spaces, restricted zones, or classrooms by automatically detecting and counting the number of people visible in a live video stream (webcam or video file). It uses a pre-trained Haar Cascade model to recognize human bodies based on visual patterns.
 
 ---
 
-## 🎯 Project Objective
+##  Project Objective
 
 The main goal of this project is to provide a basic surveillance system that enhances situational awareness in real-time by:
 - Detecting human presence using a camera.
@@ -15,7 +15,7 @@ This system can be useful for simple crowd monitoring, entry tracking, or in cla
 
 ---
 
-## 🏗️ System Design Overview
+##  System Design Overview
 
 The system is built as a modular pipeline with a clear flow from input to detection to output:
 
@@ -42,7 +42,7 @@ The system is built as a modular pipeline with a clear flow from input to detect
 
 ---
 
-## 🔁 Application Workflow (Frame-by-Frame)
+##  Application Workflow (Frame-by-Frame)
 1.  **Start Application**: Load the Haar Cascade model and initialize video capture.
 2.  **Frame Reading**: Read each frame in a loop from the video stream.
 3.  **Preprocessing**: Convert the frame to grayscale and apply histogram equalization.
@@ -53,7 +53,7 @@ The system is built as a modular pipeline with a clear flow from input to detect
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 human-detector-and-counter/
 │
@@ -67,14 +67,14 @@ human-detector-and-counter/
 
 ---
 
-## ⚙️ How to Run the Project
+##  How to Run the Project
 
-### ✅ Prerequisites
+###  Prerequisites
 - Python 3.9 or above installed
 - Git (optional, for pushing to GitHub)
 - A webcam if using live feed
 
-### 🔧 Setup Steps
+###  Setup Steps
 
 ```bash
 # Step 1: Create and activate virtual environment
